@@ -24,5 +24,8 @@
       "^.+\\.[jt]sx?$": "babel-jest"
     },
     "testEnvironment": "node"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
   }
 }
